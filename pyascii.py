@@ -15,5 +15,6 @@ try:
 		for textarg in textargs:
 			for font in fonts:
 		 		print(pyfiglet.figlet_format(textarg, font=font))
+				print("FONT:", font,"\n_____________\n")
 except TypeError:
 	print("[ERROR] Give me argument: -t youe_text")
